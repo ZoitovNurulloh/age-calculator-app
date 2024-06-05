@@ -40,6 +40,15 @@
 
 /* CUSTOM PROPS */
 
+:root {
+  --grey:#716f6f;
+  --dark:#151515;
+  --purple:#854dff;
+  --light-grey:#f0f0f0;
+  --line:#dcdcdc;
+  --red:#ff5959;
+}
+
 
 /* GLOBAL */
 
