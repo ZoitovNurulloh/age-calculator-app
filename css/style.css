@@ -100,6 +100,38 @@ input:-webkit-autofill:focus {
 } */
 
 
+.age {
+  position: relative;
+  background-color: #fff;
+  padding: 3.5rem;
+  border-radius: 1.5rem 1.5rem 12.5rem 1.5rem;
+}
+
+.age__icon {
+  position: absolute;
+  right: 3.5rem;
+  top: 9.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: var(--purple);
+  transition: background-color 0.5s ease;
+}
+
+.age__icon:hover {
+  background-color: var(--dark);
+  cursor: pointer;
+}
+
+.age__img {
+  width: 2.75rem;
+  height: 2.75rem;
+  display: block;
+}
+
 .form {
   display: flex;
   align-items: center;
@@ -157,6 +189,24 @@ input:-webkit-autofill:focus {
   font-style: italic;
 }
 
+.age__info {
+  padding-top: 3rem;
+  font-size: 6.5rem;
+  line-height: 110%;
+  font-weight: 800;
+  width: 45.5rem;
+}
+.age__console {
+  display: flex;
+  align-items: center;
+}
+.age__descripton {
+  color: var(--purple);
+}
+
+.age__text {
+
+}
 
 /* RETINA BACKGROUND IMAGES */
 @media
