@@ -203,11 +203,6 @@ input:-webkit-autofill:focus {
 .age__descripton {
   color: var(--purple);
 }
-
-.age__text {
-
-}
-
 /* RETINA BACKGROUND IMAGES */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
