@@ -67,10 +67,11 @@ html {
 
 body {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100%;
-  background-color: #fff;
-  color: #222;
+  background-color: var(--light-grey);
+  color: var(--dark);
   font-family: "Poppins", "Arial", sans-serif;
   font-weight: 700;
   font-size: 0.875rem;
