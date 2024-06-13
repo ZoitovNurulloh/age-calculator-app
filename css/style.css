@@ -107,7 +107,7 @@ input:-webkit-autofill:focus {
   border-radius: 1.5rem 1.5rem 12.5rem 1.5rem;
 }
 
-.age__icon {
+.form__btn {
   position: absolute;
   right: 3.5rem;
   top: 9.8rem;
@@ -121,15 +121,15 @@ input:-webkit-autofill:focus {
   transition: background-color 0.5s ease;
 }
 
-.age__icon:hover {
-  background-color: var(--dark);
-  cursor: pointer;
-}
-
-.age__img {
+.form__img {
   width: 2.75rem;
   height: 2.75rem;
   display: block;
+}
+
+.form__btn:hover {
+  background-color: var(--dark);
+  cursor: pointer;
 }
 
 .form {
@@ -140,6 +140,7 @@ input:-webkit-autofill:focus {
 }
 
 .form__group {
+  position: relative;
   display: flex;
   flex-direction: column;
 }
@@ -183,7 +184,11 @@ input:-webkit-autofill:focus {
 .form__input--err {
   border: 1px solid var(--red);
 }
+
 .form__err--text {
+  position: absolute;
+  bottom: -24px;
+  left: 0;
   color:var(--red);
   font-weight: 400;
   font-style: italic;
