@@ -13,28 +13,29 @@
 <body>
 
   <div class="age">
-    <div class="age__icon">
-      <img class="age__img" src="./img/icon-arrow.svg" alt="Icon" width="44" height="44">
-    </div>
-    <div class="age__form form">
+    <form class="age__form form">
       <div class="form__group">
         <label class="form__label" for="form__day">Day</label>
-        <input id="form__day" class="form__input " type="text" placeholder="DD" required>
+        <input id="form__day" class="form__input " type="number" placeholder="DD" required>
         <span id="form__err--day"  class="form__err--text"></span>
       </div>
 
       <div class="form__group">
         <label class="form__label" for="form__day">Month</label>
-        <input id="form__month" class="form__input" type="text" placeholder="MM" required>
+        <input id="form__month" class="form__input" type="number" placeholder="MM" required>
         <span id="form__err--month" class="form__err--text"></span>
       </div>
 
       <div class="form__group">
-        <label class="form__label" for="form__day">Day</label>
-        <input id="form__year" class="form__input" type="text" placeholder="YYYY" required>
+        <label class="form__label" for="form__day">Year</label>
+        <input id="form__year" class="form__input" type="number" placeholder="YYYY" required>
         <span id="form__err--year" class="form__err--text"></span>
       </div>
-    </div>
+
+      <button id="btn" class="form__btn" type="submit">
+        <img class="form__img" src="./img/icon-arrow.svg" alt="Icon">
+      </button>
+    </form>
 
     <div class="age__info">
       <div class="age__console">
